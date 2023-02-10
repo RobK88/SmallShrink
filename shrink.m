@@ -5,6 +5,9 @@
 //  Created by Richard Hughes on 19/10/2009.
 //  Copyright 2009 Small Software. All rights reserved.
 //
+//  Modifications created by Robert Kennedy
+//  Copyright 2023 Robert Kennedy
+//
 
 #import "shrink.h"
 #import "JSON.h"
@@ -19,11 +22,15 @@
 	NSOpenPanel *finder	= [NSOpenPanel openPanel];
     [finder setCanChooseDirectories: YES];
     [finder setCanChooseFiles: NO];
-	NSInteger r	= [finder runModalForTypes:nil];
+	//NSInteger r	= [finder runModalForTypes:nil];
+    NSInteger r	= [finder runModal];
 	if(r == NSCancelButton)  return;
 	
-	NSString * tvarFilename = [finder filename];
-	
+	//NSString * tvarFilename = [finder filename];
+    NSArray *urls = [finder URLs];
+    NSString *tvarFullFilename = [[[(NSArray*)urls mutableCopy] firstObject] absoluteString];
+    NSString *tvarFilename = [tvarFullFilename stringByReplacingOccurrencesOfString:@"file://localhost"
+                                                          withString:@""];
 	[source setStringValue:tvarFilename];
 	
 	[self lsdvd:tvarFilename];
@@ -54,8 +61,11 @@
 	
 	if(r == NSCancelButton) return;
 	
-	NSString * tvarFilename = [finder filename];
-	
+	//NSString * tvarFilename = [finder filename];
+	NSArray *urls = [finder URLs];
+    NSString *tvarFullFilename = [[[(NSArray*)urls mutableCopy] firstObject] absoluteString];
+    NSString *tvarFilename = [tvarFullFilename stringByReplacingOccurrencesOfString:@"file://localhost"
+                                                                         withString:@""];
 	
 	[outputFolder setStringValue:tvarFilename];
 	
@@ -234,7 +244,8 @@
 }
 
 
-- (int)doTask: (NSString *) command: (NSArray *) arguments
+//- (int)doTask: (NSString *) command: (NSArray *) arguments
+- (int)doTask: (NSString *) command : (NSArray *) arguments
 {
 	NSTask *task;
 	task = [[NSTask alloc] init];

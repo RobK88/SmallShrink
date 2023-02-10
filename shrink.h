@@ -5,6 +5,9 @@
 //  Created by Richard Hughes on 19/10/2009.
 //  Copyright 2009 Small Software. All rights reserved.
 //
+//  Modifications created by Robert Kennedy
+//  Copyright 2023 Robert Kennedy
+//
 
 #import <Cocoa/Cocoa.h>
 
@@ -25,6 +28,7 @@
 	IBOutlet id target;
 	IBOutlet id tempFiles;
 	IBOutlet NSTableView *tableView;
+    NSMutableArray *dvdContents;
  	
 }
 - (IBAction) setDvdSource:(id)sender;
@@ -34,6 +38,6 @@
 - (int) doTask:(NSString *)command :(NSArray *)arguments;
 - (NSString *) lsdvd:(NSString *)dvdpath;
 
-NSMutableArray *dvdContents;
+//     NSMutableArray *dvdContents;
 
 @end

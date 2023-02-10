@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58140DA1D0A300B32029 /* MainMenu.xib */; };
+		5E131E3710C86021008F7275 /* ss_init.sh in Resources */ = {isa = PBXBuildFile; fileRef = 5E131E3610C86021008F7275 /* ss_init.sh */; };
+		5E131E3910C8602C008F7275 /* ss_title.sh in Resources */ = {isa = PBXBuildFile; fileRef = 5E131E3810C8602C008F7275 /* ss_title.sh */; };
+		5E131F0C10C92D5F008F7275 /* ss_create.sh in Resources */ = {isa = PBXBuildFile; fileRef = 5E131F0B10C92D5F008F7275 /* ss_create.sh */; };
+		5E1C553210AC0E2600E28EC5 /* mplex in Resources */ = {isa = PBXBuildFile; fileRef = 5E1C553110AC0E2600E28EC5 /* mplex */; };
+		5E784E101092314A00654A2E /* dvdauthor in Resources */ = {isa = PBXBuildFile; fileRef = 5E784E091092314900654A2E /* dvdauthor */; };
+		5E784E121092314A00654A2E /* lsdvd in Resources */ = {isa = PBXBuildFile; fileRef = 5E784E0B1092314A00654A2E /* lsdvd */; };
+		5E784E131092314A00654A2E /* M2VRequantiser in Resources */ = {isa = PBXBuildFile; fileRef = 5E784E0C1092314A00654A2E /* M2VRequantiser */; };
+		5E784E151092314A00654A2E /* tccat in Resources */ = {isa = PBXBuildFile; fileRef = 5E784E0E1092314A00654A2E /* tccat */; };
+		5E784E161092314A00654A2E /* tcprobe in Resources */ = {isa = PBXBuildFile; fileRef = 5E784E0F1092314A00654A2E /* tcprobe */; };
+		5E784E1A10923BB500654A2E /* mkisofs in Resources */ = {isa = PBXBuildFile; fileRef = 5E784E1910923BB500654A2E /* mkisofs */; };
+		5EC8A9B6113C71C600E684C4 /* ss_file.sh in Resources */ = {isa = PBXBuildFile; fileRef = 5EC8A9B5113C71C600E684C4 /* ss_file.sh */; };
+		5EC8AA14113F037800E684C4 /* mencoder in Resources */ = {isa = PBXBuildFile; fileRef = 5EC8AA13113F037800E684C4 /* mencoder */; };
+		5EC8C99D10B985A0000CEAB9 /* SmallShrinkIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 5EC8C99C10B985A0000CEAB9 /* SmallShrinkIcon.icns */; };
+		5EFAA4B210E169A700D58A2E /* ffmpeg in Resources */ = {isa = PBXBuildFile; fileRef = 5EFAA4B110E169A700D58A2E /* ffmpeg */; };
+		5EFBBF64108CF01C00E353F0 /* shrink.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EFBBF63108CF01C00E353F0 /* shrink.m */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58150DA1D0A300B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		256AC3F00F4B6AF500CF3369 /* SmallShrink_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmallShrink_Prefix.pch; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		5E131E3610C86021008F7275 /* ss_init.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = ss_init.sh; sourceTree = "<group>"; };
+		5E131E3810C8602C008F7275 /* ss_title.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = ss_title.sh; sourceTree = "<group>"; };
+		5E131F0B10C92D5F008F7275 /* ss_create.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = ss_create.sh; sourceTree = "<group>"; };
+		5E1C553110AC0E2600E28EC5 /* mplex */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = mplex; sourceTree = "<group>"; };
+		5E784E091092314900654A2E /* dvdauthor */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = dvdauthor; sourceTree = "<group>"; };
+		5E784E0B1092314A00654A2E /* lsdvd */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = lsdvd; sourceTree = "<group>"; };
+		5E784E0C1092314A00654A2E /* M2VRequantiser */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = M2VRequantiser; sourceTree = "<group>"; };
+		5E784E0E1092314A00654A2E /* tccat */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = tccat; sourceTree = "<group>"; };
+		5E784E0F1092314A00654A2E /* tcprobe */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = tcprobe; sourceTree = "<group>"; };
+		5E784E1910923BB500654A2E /* mkisofs */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = mkisofs; sourceTree = "<group>"; };
+		5EC8A9B5113C71C600E684C4 /* ss_file.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = ss_file.sh; sourceTree = "<group>"; };
+		5EC8AA13113F037800E684C4 /* mencoder */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = mencoder; sourceTree = "<group>"; };
+		5EC8C99C10B985A0000CEAB9 /* SmallShrinkIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = SmallShrinkIcon.icns; sourceTree = "<group>"; };
+		5EFAA4B110E169A700D58A2E /* ffmpeg */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = ffmpeg; sourceTree = "<group>"; };
+		5EFBBF62108CF01C00E353F0 /* shrink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shrink.h; sourceTree = "<group>"; };
+		5EFBBF63108CF01C00E353F0 /* shrink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = shrink.m; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* SmallShrink-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "SmallShrink-Info.plist"; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* SmallShrink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmallShrink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				13E42FB307B3F0F600E4EEF1 /* CoreData.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* SmallShrink.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* SmallShrink */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				5EFBBF62108CF01C00E353F0 /* shrink.h */,
+				5EFBBF63108CF01C00E353F0 /* shrink.m */,
+			);
+			name = SmallShrink;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				256AC3F00F4B6AF500CF3369 /* SmallShrink_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5EC8AA13113F037800E684C4 /* mencoder */,
+				5EFAA4B110E169A700D58A2E /* ffmpeg */,
+				5EC8C99C10B985A0000CEAB9 /* SmallShrinkIcon.icns */,
+				5E1C553110AC0E2600E28EC5 /* mplex */,
+				5E784E091092314900654A2E /* dvdauthor */,
+				5E784E0B1092314A00654A2E /* lsdvd */,
+				5E784E0C1092314A00654A2E /* M2VRequantiser */,
+				5E131E3610C86021008F7275 /* ss_init.sh */,
+				5E131F0B10C92D5F008F7275 /* ss_create.sh */,
+				5E131E3810C8602C008F7275 /* ss_title.sh */,
+				5E784E1910923BB500654A2E /* mkisofs */,
+				5E784E0E1092314A00654A2E /* tccat */,
+				5E784E0F1092314A00654A2E /* tcprobe */,
+				8D1107310486CEB800E47090 /* SmallShrink-Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				1DDD58140DA1D0A300B32029 /* MainMenu.xib */,
+				5EC8A9B5113C71C600E684C4 /* ss_file.sh */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* SmallShrink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "SmallShrink" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmallShrink;
+			productInstallPath = "$(HOME)/Applications";
+			productName = SmallShrink;
+			productReference = 8D1107320486CEB800E47090 /* SmallShrink.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Small Software";
+			};
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SmallShrink" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* SmallShrink */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* SmallShrink */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				5E784E101092314A00654A2E /* dvdauthor in Resources */,
+				5E784E121092314A00654A2E /* lsdvd in Resources */,
+				5E784E131092314A00654A2E /* M2VRequantiser in Resources */,
+				5E784E151092314A00654A2E /* tccat in Resources */,
+				5E784E161092314A00654A2E /* tcprobe in Resources */,
+				5E784E1A10923BB500654A2E /* mkisofs in Resources */,
+				5E1C553210AC0E2600E28EC5 /* mplex in Resources */,
+				5EC8C99D10B985A0000CEAB9 /* SmallShrinkIcon.icns in Resources */,
+				5E131E3710C86021008F7275 /* ss_init.sh in Resources */,
+				5E131E3910C8602C008F7275 /* ss_title.sh in Resources */,
+				5E131F0C10C92D5F008F7275 /* ss_create.sh in Resources */,
+				5EFAA4B210E169A700D58A2E /* ffmpeg in Resources */,
+				5EC8A9B6113C71C600E684C4 /* ss_file.sh in Resources */,
+				5EC8AA14113F037800E684C4 /* mencoder in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				5EFBBF64108CF01C00E353F0 /* shrink.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58140DA1D0A300B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58150DA1D0A300B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SmallShrink_Prefix.pch;
+				INFOPLIST_FILE = "SmallShrink-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = SmallShrink;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SmallShrink_Prefix.pch;
+				INFOPLIST_FILE = "SmallShrink-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = SmallShrink;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = 4.2;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = 4.2;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "SmallShrink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "SmallShrink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

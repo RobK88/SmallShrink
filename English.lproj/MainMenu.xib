@@ -343,7 +343,7 @@
 							<object class="NSTextFieldCell" key="NSCell" id="471424268">
 								<int key="NSCellFlags">67239424</int>
 								<int key="NSCellFlags2">138674176</int>
-								<string key="NSContents">SmallShrink 0.5 January 2022</string>
+								<string key="NSContents">SmallShrink 0.6 January 2022</string>
 								<object class="NSFont" key="NSSupport" id="22">
 									<string key="NSName">LucidaGrande</string>
 									<double key="NSSize">9</double>
@@ -749,7 +749,6 @@
 														<string key="NSFrame">{{1, 119}, {223, 15}}</string>
 														<reference key="NSSuperview" ref="433772440"/>
 														<reference key="NSWindow"/>
-														<reference key="NSNextKeyView" ref="204726537"/>
 														<int key="NSsFlags">1</int>
 														<reference key="NSTarget" ref="433772440"/>
 														<string key="NSAction">_doScroller:</string>
@@ -1510,7 +1509,6 @@
 							<string key="NSFrame">{{159, 20}, {515, 17}}</string>
 							<reference key="NSSuperview" ref="439893737"/>
 							<reference key="NSWindow"/>
-							<reference key="NSNextKeyView"/>
 							<bool key="NSEnabled">YES</bool>
 							<object class="NSTextFieldCell" key="NSCell" id="1060095286">
 								<int key="NSCellFlags">68288064</int>
